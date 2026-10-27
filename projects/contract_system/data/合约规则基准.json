@@ -1,0 +1,36 @@
+{
+  "portfolio_version": "1.1",
+  "design_version": "1.0",
+  "demo_version": "0.4.0",
+  "active_demo_contract": "CONTRACT_002",
+  "contracts": [
+    {
+      "id": "CONTRACT_001",
+      "name": "步枪火力校准",
+      "weapon_tag": "rifle",
+      "target_type": "UESC",
+      "required_count": 12,
+      "base_xp": 80,
+      "first_clear_bonus": 120,
+      "mod_unlock_xp": 200,
+      "exfil_hold_seconds": 1.2,
+      "requires_exfil": true,
+      "progress_scope": "single_action",
+      "retain_on_failure": false
+    },
+    {
+      "id": "CONTRACT_002",
+      "name": "步枪成长训练",
+      "weapon_tag": "rifle",
+      "target_type": "training_drone",
+      "required_count": 12,
+      "base_xp": 80,
+      "first_clear_bonus": 120,
+      "mod_unlock_xp": 200,
+      "exfil_hold_seconds": 1.2,
+      "requires_exfil": false,
+      "progress_scope": "across_actions",
+      "retain_on_failure": true
+    }
+  ]
+}
