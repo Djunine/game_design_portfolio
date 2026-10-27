@@ -1,0 +1,4 @@
+.godot/
+build/
+progress.json
+progress.json.tmp
