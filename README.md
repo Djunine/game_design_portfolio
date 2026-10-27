@@ -4,7 +4,7 @@
 
 **建议顺序：系统拆解 → 合约设计 → 执行样例 → 可玩 Demo。**
 
-[一页阅读导引](docs/阅读导引.pdf) · [网页版阅读入口](index.html) · [试玩与源项目下载页](https://github.com/Djunine/game_design_portfolio/releases)
+[网页版阅读入口](index.html) · [试玩与源项目下载页](https://github.com/Djunine/game_design_portfolio/releases)
 
 ## 两个项目，一条主线
 
